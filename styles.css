@@ -1,0 +1,62 @@
+body {
+    background-color: #1C1D31;
+    font-family: 'Montserrat', sans-serif;
+}
+.entire-body {
+    padding-top: 5%;
+    width: 1000px;
+    margin: 0 auto;
+    color: white;
+}
+.flex-container {
+    display: flex;
+}
+#flex-box-1 {
+    flex: 1;
+    padding-top: 40px;
+}
+#flex-box-2 {
+    flex: 2;
+}
+#flex-box-2 img {
+    width: 380px;
+    height: 340px;
+}
+
+#flex-box-1 button {
+    padding: 15px;
+    width: 200px;
+    background-color: #A9F354;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+#flex-box-1 p{
+    font-size: 18px;
+} 
+
+nav ul {
+    display: flex;
+    width: 450px;
+    justify-content: space-between;
+    padding-left: 0;
+}
+nav ul li {
+    list-style: none;
+    cursor: pointer;
+    transition: .3s all;
+}
+
+nav ul li:hover {
+    color: #A9F354;
+}
+
+#cta-button {
+    padding: 15px;
+    width: 180px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    margin-top: 20px;
+    text-transform: uppercase;
+}
